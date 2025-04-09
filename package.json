@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-
     "callback": "node src/callback/challenge.js"
   },
   "repository": {
@@ -21,6 +20,8 @@
   },
   "homepage": "https://github.com/BederCC/asincronismo#readme",
   "dependencies": {
+    "node-fetch": "^3.3.2",
     "xmlhttprequest": "^1.8.0"
-  }
+  },
+  "type": "module"
 }
